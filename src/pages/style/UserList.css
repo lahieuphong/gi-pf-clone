@@ -13,23 +13,26 @@
   }
 }
 
+/* Hover hàng trong bảng với tone cam */
 .ant-table-tbody > tr:hover {
-  background-color: #f9f9ff;
-  box-shadow: 0 0 10px rgba(0, 180, 255, 0.1);
+  background-color: #fff5e6; /* cam nhạt */
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.1); /* ánh cam nhẹ */
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
+/* Avatar glow cam */
 .glow-avatar:hover {
-  box-shadow: 0 0 10px rgba(0, 200, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 160, 0, 0.5); /* cam sáng */
   transition: box-shadow 0.3s ease;
   border-radius: 50%;
 }
 
+/* Nút glow cam */
 .glow-button {
   transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
 .glow-button:hover {
-  box-shadow: 0 0 12px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 12px rgba(255, 115, 0, 0.5); /* cam đậm */
   transform: translateY(-1px);
 }
