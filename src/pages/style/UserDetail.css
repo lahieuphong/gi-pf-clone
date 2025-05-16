@@ -1,0 +1,35 @@
+.fade-in-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glow-avatar:hover {
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.6);
+  transition: box-shadow 0.3s ease;
+  border-radius: 50%;
+}
+
+.glow-button {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.ant-table-tbody > tr:hover {
+  background-color: #f9f9ff;
+  box-shadow: 0 0 10px rgba(0, 180, 255, 0.1);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}

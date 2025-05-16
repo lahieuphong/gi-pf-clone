@@ -1,0 +1,36 @@
+.glow-table {
+  animation: fadeInTable 0.5s ease-in-out;
+}
+
+@keyframes fadeInTable {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glow-table .ant-table-tbody > tr:hover {
+  background-color: #f9f9ff;
+  box-shadow: 0 0 10px rgba(0, 180, 255, 0.2);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.glow-button {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  border-radius: 6px;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.6);
+  transform: translateY(-1px);
+}
+
+.glow-avatar:hover {
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.5);
+  transition: box-shadow 0.3s ease;
+  border-radius: 50%;
+}
