@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 🎨 Gi-PF - Albums & Users
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Product Frontend – Geek Internship Summer 2025 Submission**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Project Setup Guide
 
-### `npm start`
+Follow the steps below to run this React project on your local machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ Step 1: Install Dependencies
 
-### `npm test`
+Install all required packages:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+````
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✅ Step 2: Start the Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After dependencies are installed, run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🛠️ If You See `react-scripts: command not found`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This error means `react-scripts` is not installed correctly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open `package.json` and check for `react-scripts` in the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```json
+   "dependencies": {
+     "react": "^18.x.x",
+     "react-dom": "^18.x.x",
+     "react-scripts": "5.0.1"
+   }
+   ```
 
-## Learn More
+2. If it's missing, run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install react-scripts
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 🔁 If It Still Doesn't Work
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Try clearing the cache and reinstalling everything:
 
-### Analyzing the Bundle Size
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Then restart the app:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### 📌 Node & npm Version Check
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Make sure your environment is compatible:
 
-### Deployment
+```bash
+node -v
+npm -v
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> ✅ Recommended: **Node.js v16 or v18**
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🖼️ Application UI Preview
+
+Below are some screenshots of the application interface:
+
+### 📁 Albums Page
+
+![Albums Screenshot](screenshots/albums.png)
+
+### 📂 Show Album
+
+![Show Albums Screenshot](screenshots/show_albums.png)
+
+### 👥 Users Page
+
+![Show Users Screenshot](screenshots/users.png)
+
+### 👤 Show User
+
+![Show User Screenshot](screenshots/show_users.png)
+
+---
+
+## 🙋 Author
+
+**La Hiểu Phong**
+🎓 Geek Internship Summer 2025
+
+* 📧 Email: [hieuphong144@gmail.com](mailto:hieuphong144@gmail.com)
+* 🌐 Facebook: [facebook.com/lahieuphong2111](https://www.facebook.com/lahieuphong2111)
+
+---
+
+Made with ❤️ for **Geek Internship Summer 2025**
