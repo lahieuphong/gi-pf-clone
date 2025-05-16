@@ -107,7 +107,7 @@ Below are some screenshots of the application interface:
 ## 🙋 Author
 
 **La Hiểu Phong**
-*🎓 Geek Internship Summer 2025
+* 🎓 Geek Internship Summer 2025
 * 📧 Email: [hieuphong144@gmail.com](mailto:hieuphong144@gmail.com)
 * 🌐 Facebook: [facebook.com/lahieuphong2111](https://www.facebook.com/lahieuphong2111)
 
